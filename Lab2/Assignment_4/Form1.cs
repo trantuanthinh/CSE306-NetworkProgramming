@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -7,6 +8,8 @@ namespace Assignment_4
     public partial class Form1 : Form
     {
         private Random random = new Random();
+        int numberofFiles = 0;
+        Thread[] threadArray;
 
         public Form1()
         {
@@ -27,20 +30,17 @@ namespace Assignment_4
                     if (openFileDialog.ShowDialog() == DialogResult.OK)
                     {
                         string[] selectedFiles = openFileDialog.FileNames;
-                        foreach (var item in selectedFiles)
+                        numberofFiles = selectedFiles.Length;
+                        threadArray = new Thread[numberofFiles];
+                        for (int i = 0; i < numberofFiles; i++)
                         {
-                            uploadList.Items.Add(item);
+                            uploadList.Items.Add(selectedFiles[i]);
+                            threadArray[i] = new Thread(Upload);
+                            threadArray[i].Start(selectedFiles[i]);
                         }
-                        int totalFiles = selectedFiles.Length;
-                        int uploadedFiles = 0;
-                        object lockObj = new object();
 
-                        foreach (string file in selectedFiles)
-                        {
-                            Thread uploadThread = new Thread(() => Upload(file, lockObj, totalFiles, ref uploadedFiles));
-                            uploadThread.IsBackground = true; 
-                            uploadThread.Start();
-                        }
+                        Thread finalThread = new Thread(JoinAllThread);
+                        finalThread.Start();
                     }
                 }
             }
@@ -50,42 +50,44 @@ namespace Assignment_4
             }
         }
 
-        private void Upload(string file, object lockObj, int totalFiles, ref int uploadedFiles)
+        private void Upload(object _filePath)
         {
+            string filePath = (string)_filePath;
+            string fileName = Path.GetFileName(filePath);
             try
             {
                 int uploadTime = random.Next(2000, 5000);
                 Invoke(new Action(() =>
                 {
-                    statusList.Items.Add($"Uploading...: {file}");
-                })); 
-                
-                Thread.Sleep(uploadTime); 
+                    statusList.Items.Add($"Uploading...: {fileName}");
+                }));
+
+                Thread.Sleep(uploadTime);
 
                 Invoke(new Action(() =>
                 {
-                    statusList.Items.Add($"Successfully uploaded: {file}");
+                    statusList.Items.Add($"Successfully uploaded: {fileName}");
                 }));
-
-                lock (lockObj)
-                {
-                    uploadedFiles++;
-                    if (uploadedFiles == totalFiles)
-                    {
-                        Invoke(new Action(() =>
-                        {
-                            MessageBox.Show("All files uploaded successfully.", "Upload Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }));
-                    }
-                }
             }
             catch (Exception ex)
             {
                 Invoke(new Action(() =>
                 {
-                    MessageBox.Show($"Failed to upload file: {file}\nError: {ex.Message}", "Upload Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Failed to upload file: {fileName}\nError: {ex.Message}", "Upload Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }));
             }
+        }
+
+        private void JoinAllThread(object _filePath)
+        {
+            for (int i = 0; i < numberofFiles; i++)
+            {
+                threadArray[i].Join();
+            }
+            Invoke(new Action(() =>
+            {
+                MessageBox.Show("All files uploaded successfully.", "Upload Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }));
         }
     }
 }

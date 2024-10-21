@@ -42,18 +42,18 @@ namespace Assignment_5_Server
                 byte[] buffer = new byte[1024];
                 int bytesRead = 0;
 
-                while (true)
+                using (TcpClient client = tcpListener.AcceptTcpClient())
                 {
-                    using (TcpClient client = tcpListener.AcceptTcpClient())
+                    while (true)
                     {
                         contentText.AppendText("Client Connected. \n");
                         NetworkStream networkStream = client.GetStream();
                         bytesRead = networkStream.Read(buffer, 0, buffer.Length);
-                        Console.WriteLine(bytesRead);
-                        if (bytesRead == buffer.Length) {
-                            string receivedData = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                            contentText.AppendText(receivedData);
+                        if (bytesRead == 0) {
+                            break;
                         }
+                        string receivedData = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+                        contentText.AppendText(receivedData);
                     }
                 }
             }
