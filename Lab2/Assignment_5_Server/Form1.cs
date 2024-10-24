@@ -2,6 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace Assignment_5_Server
@@ -9,25 +10,15 @@ namespace Assignment_5_Server
     public partial class Form1 : Form
     {
         private TcpListener tcpListener = null;
-        private int Port = 3000;
+        private TcpClient connectedClient = null;
+        private NetworkStream clientStream = null;
+        private bool isListening = true;
 
         public Form1()
         {
             InitializeComponent();
-            string hostName = Dns.GetHostName();
-            IPAddress[] ipAddresses = Dns.GetHostAddresses(hostName);
-            string ipv4Address = string.Empty;
-            foreach (IPAddress ip in ipAddresses)
-            {
-                if (ip.AddressFamily == AddressFamily.InterNetwork)
-                {
-                    ipv4Address = ip.ToString();
-                    break;
-                }
-            }
-            this.serverText.Text = ipv4Address;
         }
-            
+
         private void listenBtn_Click(object sender, EventArgs e)
         {
             IPAddress ipAddress = IPAddress.Parse(serverText.Text);
@@ -37,25 +28,12 @@ namespace Assignment_5_Server
             try
             {
                 tcpListener.Start();
-                contentText.AppendText("Waiting for a connection... \n");
+                isListening = true;
+                contentText.AppendText("Waiting for a connection... \r\n");
 
-                byte[] buffer = new byte[1024];
-                int bytesRead = 0;
-
-                using (TcpClient client = tcpListener.AcceptTcpClient())
-                {
-                    while (true)
-                    {
-                        contentText.AppendText("Client Connected. \n");
-                        NetworkStream networkStream = client.GetStream();
-                        bytesRead = networkStream.Read(buffer, 0, buffer.Length);
-                        if (bytesRead == 0) {
-                            break;
-                        }
-                        string receivedData = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                        contentText.AppendText(receivedData);
-                    }
-                }
+                Thread listenThread = new Thread(ListenClient);
+                listenThread.IsBackground = true;
+                listenThread.Start();
             }
             catch (Exception ex)
             {
@@ -65,6 +43,65 @@ namespace Assignment_5_Server
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error
                 );
+            }
+        }
+
+        private void ListenClient()
+        {
+            byte[] buffer = new byte[1024];
+            int bytesRead = 0;
+            while (isListening)
+            {
+                try
+                {
+                    TcpClient client = tcpListener.AcceptTcpClient();
+                    connectedClient = client; 
+                    clientStream = client.GetStream();
+                    contentText.Invoke(new Action(() =>
+                    {
+                        contentText.AppendText("Client Connected. \r\n");
+                    }));
+
+                    NetworkStream stream = client.GetStream();
+                    while ((bytesRead = stream.Read(buffer, 0, buffer.Length)) != 0)
+                    {
+                        string received = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+                        contentText.Invoke(new Action(() =>
+                        {
+                            contentText.AppendText("Client: " + received + "\r\n");
+                        }));
+                    }
+                }
+                catch (Exception e)
+                {
+                    if (isListening)
+                    {
+                        Invoke(new Action(() => MessageBox.Show("Error: " + e.Message)));
+                    }
+                }
+            }
+        }
+
+        private void sendBtn_Click(object sender, EventArgs e)
+        {
+            string messageToSend = textText.Text;
+
+            if (connectedClient != null && connectedClient.Connected && clientStream != null)
+            {
+                try
+                {
+                    byte[] buffer = Encoding.UTF8.GetBytes(messageToSend);
+                    clientStream.Write(buffer, 0, buffer.Length);
+                    contentText.AppendText("Message sent to client: " + messageToSend + "\r\n");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error sending message to client: " + ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("No client connected.");
             }
         }
     }

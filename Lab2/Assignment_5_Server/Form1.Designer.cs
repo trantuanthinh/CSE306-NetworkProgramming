@@ -43,6 +43,7 @@ namespace Assignment_5_Server
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.listenBtn = new System.Windows.Forms.Button();
+            this.sendBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,6 +53,7 @@ namespace Assignment_5_Server
             this.serverText.Name = "serverText";
             this.serverText.Size = new System.Drawing.Size(144, 22);
             this.serverText.TabIndex = 0;
+            this.serverText.Text = "127.0.0.1";
             // 
             // portText
             // 
@@ -123,11 +125,22 @@ namespace Assignment_5_Server
             this.listenBtn.UseVisualStyleBackColor = true;
             this.listenBtn.Click += new System.EventHandler(this.listenBtn_Click);
             // 
+            // sendBtn
+            // 
+            this.sendBtn.Location = new System.Drawing.Point(415, 266);
+            this.sendBtn.Name = "sendBtn";
+            this.sendBtn.Size = new System.Drawing.Size(75, 23);
+            this.sendBtn.TabIndex = 9;
+            this.sendBtn.Text = "Send";
+            this.sendBtn.UseVisualStyleBackColor = true;
+            this.sendBtn.Click += new System.EventHandler(this.sendBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.sendBtn);
             this.Controls.Add(this.listenBtn);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -157,6 +170,7 @@ namespace Assignment_5_Server
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button listenBtn;
+        private System.Windows.Forms.Button sendBtn;
     }
 }
 

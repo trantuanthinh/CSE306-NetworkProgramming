@@ -1,0 +1,7 @@
+D:\CSE306-NetworkProgramming\Demo_HTTPOverTcpConsole\Demo_HTTPOverTcpConsole\bin\Debug\Demo_HTTPOverTcpConsole.exe.config
+D:\CSE306-NetworkProgramming\Demo_HTTPOverTcpConsole\Demo_HTTPOverTcpConsole\bin\Debug\Demo_HTTPOverTcpConsole.exe
+D:\CSE306-NetworkProgramming\Demo_HTTPOverTcpConsole\Demo_HTTPOverTcpConsole\bin\Debug\Demo_HTTPOverTcpConsole.pdb
+D:\CSE306-NetworkProgramming\Demo_HTTPOverTcpConsole\Demo_HTTPOverTcpConsole\obj\Debug\Demo_HTTPOverTcpConsole.csproj.AssemblyReference.cache
+D:\CSE306-NetworkProgramming\Demo_HTTPOverTcpConsole\Demo_HTTPOverTcpConsole\obj\Debug\Demo_HTTPOverTcpConsole.csproj.CoreCompileInputs.cache
+D:\CSE306-NetworkProgramming\Demo_HTTPOverTcpConsole\Demo_HTTPOverTcpConsole\obj\Debug\Demo_HTTPOverTcpConsole.exe
+D:\CSE306-NetworkProgramming\Demo_HTTPOverTcpConsole\Demo_HTTPOverTcpConsole\obj\Debug\Demo_HTTPOverTcpConsole.pdb

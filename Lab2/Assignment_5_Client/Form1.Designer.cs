@@ -53,6 +53,7 @@ namespace Assignment_5_Client
             this.serverText.Name = "serverText";
             this.serverText.Size = new System.Drawing.Size(144, 22);
             this.serverText.TabIndex = 0;
+            this.serverText.Text = "127.0.0.1";
             // 
             // portText
             // 
@@ -132,6 +133,7 @@ namespace Assignment_5_Client
             this.sendBtn.TabIndex = 9;
             this.sendBtn.Text = "Send";
             this.sendBtn.UseVisualStyleBackColor = true;
+            this.sendBtn.Click += new System.EventHandler(this.sendBtn_Click);
             // 
             // Form1
             // 
