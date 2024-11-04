@@ -1,0 +1,20 @@
+﻿@page
+ <div class="chat-container">
+        <h2>Simple Chat</h2>
+
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="usernameInput" placeholder="Enter your username">
+        </div>
+
+        <div class="input-group">
+            <label for="message">Message</label>
+            <input type="text" id="messageInput" placeholder="Type your message">
+        </div>
+
+        <ul id="messageList"></ul>
+
+        <button class="send-button" onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>

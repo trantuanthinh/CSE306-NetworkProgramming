@@ -1,0 +1,9 @@
+D:\CSE306-NetworkProgramming\Lab3\Server\bin\Debug\Server.exe.config
+D:\CSE306-NetworkProgramming\Lab3\Server\bin\Debug\Server.exe
+D:\CSE306-NetworkProgramming\Lab3\Server\bin\Debug\Server.pdb
+D:\CSE306-NetworkProgramming\Lab3\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\CSE306-NetworkProgramming\Lab3\Server\obj\Debug\Server.Properties.Resources.resources
+D:\CSE306-NetworkProgramming\Lab3\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\CSE306-NetworkProgramming\Lab3\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\CSE306-NetworkProgramming\Lab3\Server\obj\Debug\Server.exe
+D:\CSE306-NetworkProgramming\Lab3\Server\obj\Debug\Server.pdb

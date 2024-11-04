@@ -1,0 +1,1097 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SignalRDemo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SignalRDemo.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\abortcontroller.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\abortcontroller.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\abortcontroller.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\abortcontroller.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\accesstokenhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\accesstokenhttpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\accesstokenhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\accesstokenhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\browser-index.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\browser-index.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\browser-index.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\defaulthttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\defaulthttpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\defaulthttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\defaulthttpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\defaultreconnectpolicy.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\defaultreconnectpolicy.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\defaultreconnectpolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\defaultreconnectpolicy.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\errors.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\errors.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\errors.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\errors.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\fetchhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\fetchhttpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\fetchhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\fetchhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\handshakeprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\handshakeprotocol.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\handshakeprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\handshakeprotocol.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\headernames.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\headernames.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\headernames.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\headernames.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\httpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\httpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\httpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\httpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\httpconnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\httpconnection.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\httpconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\httpconnection.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\hubconnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\hubconnection.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\hubconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\hubconnection.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\hubconnectionbuilder.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\hubconnectionbuilder.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\hubconnectionbuilder.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\hubconnectionbuilder.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\iconnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\iconnection.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\iconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\iconnection.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ihttpconnectionoptions.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ihttpconnectionoptions.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ihttpconnectionoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ihttpconnectionoptions.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ihubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ihubprotocol.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ihubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ihubprotocol.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ilogger.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ilogger.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ilogger.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ilogger.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\index.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\index.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\index.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\index.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\iretrypolicy.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\iretrypolicy.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\iretrypolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\iretrypolicy.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\istatefulreconnectoptions.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\istatefulreconnectoptions.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\istatefulreconnectoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\istatefulreconnectoptions.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\itransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\itransport.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\itransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\itransport.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\jsonhubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\jsonhubprotocol.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\jsonhubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\jsonhubprotocol.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\loggers.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\loggers.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\loggers.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\loggers.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\longpollingtransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\longpollingtransport.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\longpollingtransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\longpollingtransport.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\messagebuffer.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\messagebuffer.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\messagebuffer.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\messagebuffer.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\polyfills.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\polyfills.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\polyfills.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\polyfills.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\serversenteventstransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\serversenteventstransport.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\serversenteventstransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\serversenteventstransport.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\stream.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\stream.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\stream.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\stream.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\subject.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\subject.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\subject.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\subject.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\textmessageformat.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\textmessageformat.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\textmessageformat.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\textmessageformat.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\utils.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\utils.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\utils.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\websockettransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\websockettransport.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\websockettransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\websockettransport.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\xhrhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\xhrhttpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\xhrhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\xhrhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\abortcontroller.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\abortcontroller.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\abortcontroller.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\abortcontroller.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\abortcontroller.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\abortcontroller.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\accesstokenhttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\accesstokenhttpclient.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\accesstokenhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\accesstokenhttpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\accesstokenhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\accesstokenhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\defaulthttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\defaulthttpclient.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\defaulthttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\defaulthttpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\defaulthttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\defaulthttpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\defaultreconnectpolicy.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\defaultreconnectpolicy.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\defaultreconnectpolicy.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\defaultreconnectpolicy.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\defaultreconnectpolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\defaultreconnectpolicy.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\errors.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\errors.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\errors.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\errors.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\errors.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\errors.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\fetchhttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\fetchhttpclient.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\fetchhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\fetchhttpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\fetchhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\fetchhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\handshakeprotocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\handshakeprotocol.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\handshakeprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\handshakeprotocol.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\handshakeprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\handshakeprotocol.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\headernames.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\headernames.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\headernames.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\headernames.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\headernames.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\headernames.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\httpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\httpclient.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\httpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\httpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\httpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\httpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\httpconnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\httpconnection.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\httpconnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\httpconnection.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\httpconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\httpconnection.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\hubconnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\hubconnection.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\hubconnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\hubconnection.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\hubconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\hubconnection.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\hubconnectionbuilder.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\hubconnectionbuilder.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\hubconnectionbuilder.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\hubconnectionbuilder.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\hubconnectionbuilder.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\hubconnectionbuilder.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\iconnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\iconnection.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\iconnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\iconnection.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\iconnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\iconnection.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ihttpconnectionoptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ihttpconnectionoptions.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ihttpconnectionoptions.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ihttpconnectionoptions.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ihttpconnectionoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ihttpconnectionoptions.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ihubprotocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ihubprotocol.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ihubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ihubprotocol.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ihubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ihubprotocol.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ilogger.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ilogger.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ilogger.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ilogger.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ilogger.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ilogger.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\index.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\index.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\index.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\index.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\index.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\iretrypolicy.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\iretrypolicy.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\iretrypolicy.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\iretrypolicy.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\iretrypolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\iretrypolicy.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\istatefulreconnectoptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\istatefulreconnectoptions.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\istatefulreconnectoptions.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\istatefulreconnectoptions.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\istatefulreconnectoptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\istatefulreconnectoptions.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\itransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\itransport.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\itransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\itransport.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\itransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\itransport.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\jsonhubprotocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\jsonhubprotocol.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\jsonhubprotocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\jsonhubprotocol.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\jsonhubprotocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\jsonhubprotocol.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\loggers.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\loggers.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\loggers.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\loggers.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\loggers.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\loggers.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\longpollingtransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\longpollingtransport.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\longpollingtransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\longpollingtransport.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\longpollingtransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\longpollingtransport.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\messagebuffer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\messagebuffer.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\messagebuffer.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\messagebuffer.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\messagebuffer.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\messagebuffer.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\polyfills.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\polyfills.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\polyfills.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\polyfills.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\polyfills.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\polyfills.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\serversenteventstransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\serversenteventstransport.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\serversenteventstransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\serversenteventstransport.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\serversenteventstransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\serversenteventstransport.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\stream.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\stream.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\stream.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\stream.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\stream.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\stream.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\subject.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\subject.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\subject.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\subject.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\subject.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\subject.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\textmessageformat.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\textmessageformat.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\textmessageformat.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\textmessageformat.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\textmessageformat.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\textmessageformat.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\utils.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\utils.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\utils.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\utils.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\utils.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\websockettransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\websockettransport.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\websockettransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\websockettransport.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\websockettransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\websockettransport.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\xhrhttpclient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\xhrhttpclient.d.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\xhrhttpclient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\xhrhttpclient.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\xhrhttpclient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\xhrhttpclient.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.min.js.map"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\package.json",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\package.json"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\readme.md",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\readme.md"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\abortcontroller.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\abortcontroller.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\accesstokenhttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\accesstokenhttpclient.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\browser-index.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\browser-index.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\defaulthttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\defaulthttpclient.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\defaultreconnectpolicy.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\defaultreconnectpolicy.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\errors.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\errors.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\fetchhttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\fetchhttpclient.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\handshakeprotocol.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\handshakeprotocol.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\headernames.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\headernames.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\httpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\httpclient.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\httpconnection.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\httpconnection.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\hubconnection.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\hubconnection.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\hubconnectionbuilder.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\hubconnectionbuilder.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\iconnection.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\iconnection.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\ihttpconnectionoptions.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\ihttpconnectionoptions.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\ihubprotocol.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\ihubprotocol.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\ilogger.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\ilogger.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\index.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\index.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\iretrypolicy.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\iretrypolicy.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\istatefulreconnectoptions.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\istatefulreconnectoptions.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\itransport.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\itransport.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\jsonhubprotocol.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\jsonhubprotocol.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\loggers.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\loggers.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\longpollingtransport.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\longpollingtransport.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\messagebuffer.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\messagebuffer.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\polyfills.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\polyfills.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\serversenteventstransport.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\serversenteventstransport.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\stream.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\stream.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\subject.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\subject.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\textmessageformat.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\textmessageformat.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\third-party-notices.txt",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\third-party-notices.txt"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\utils.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\utils.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\websockettransport.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\websockettransport.ts"
+    },
+    {
+      "Id": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\lib\\microsoft\\signalr\\src\\xhrhttpclient.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\src\\xhrhttpclient.ts"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SignalRDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SignalRDemo.props",
+      "PackagePath": "build\\SignalRDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SignalRDemo.props",
+      "PackagePath": "buildMultiTargeting\\SignalRDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SignalRDemo.props",
+      "PackagePath": "buildTransitive\\SignalRDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

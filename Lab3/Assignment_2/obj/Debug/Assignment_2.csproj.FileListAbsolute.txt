@@ -1,0 +1,10 @@
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\bin\Debug\Assignment_2.exe.config
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\bin\Debug\Assignment_2.exe
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\bin\Debug\Assignment_2.pdb
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\obj\Debug\Assignment_2.csproj.AssemblyReference.cache
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\obj\Debug\Assignment_2.Form1.resources
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\obj\Debug\Assignment_2.Properties.Resources.resources
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\obj\Debug\Assignment_2.csproj.GenerateResource.cache
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\obj\Debug\Assignment_2.csproj.CoreCompileInputs.cache
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\obj\Debug\Assignment_2.exe
+D:\CSE306-NetworkProgramming\Lab3\Assignment_2\obj\Debug\Assignment_2.pdb

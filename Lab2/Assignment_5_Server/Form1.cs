@@ -55,21 +55,25 @@ namespace Assignment_5_Server
                 try
                 {
                     TcpClient client = tcpListener.AcceptTcpClient();
-                    connectedClient = client; 
+                    connectedClient = client;
                     clientStream = client.GetStream();
-                    contentText.Invoke(new Action(() =>
-                    {
-                        contentText.AppendText("Client Connected. \r\n");
-                    }));
+                    contentText.Invoke(
+                        new Action(() =>
+                        {
+                            contentText.AppendText("Client Connected. \r\n");
+                        })
+                    );
 
                     NetworkStream stream = client.GetStream();
                     while ((bytesRead = stream.Read(buffer, 0, buffer.Length)) != 0)
                     {
                         string received = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                        contentText.Invoke(new Action(() =>
-                        {
-                            contentText.AppendText("Client: " + received + "\r\n");
-                        }));
+                        contentText.Invoke(
+                            new Action(() =>
+                            {
+                                contentText.AppendText("Client: " + received + "\r\n");
+                            })
+                        );
                     }
                 }
                 catch (Exception e)

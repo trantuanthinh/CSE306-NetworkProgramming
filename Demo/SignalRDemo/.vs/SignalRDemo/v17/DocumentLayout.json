@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|d:\\cse306-networkprogramming\\demo\\signalrdemo\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|d:\\cse306-networkprogramming\\demo\\signalrdemo\\wwwroot\\js\\chart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|solutionrelative:wwwroot\\js\\chart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|d:\\cse306-networkprogramming\\demo\\signalrdemo\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|d:\\cse306-networkprogramming\\demo\\signalrdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|d:\\cse306-networkprogramming\\demo\\signalrdemo\\signalrdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{49DA36BF-7E77-40FD-ACB8-7A123033E1BD}|SignalRDemo.csproj|solutionrelative:signalrdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "chart.js",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\js\\chart.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\chart.js",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\wwwroot\\js\\chart.js",
+              "RelativeToolTip": "wwwroot\\js\\chart.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-04T04:12:19.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T03:27:54.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T03:24:40.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignalRDemo",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\SignalRDemo.csproj",
+              "RelativeDocumentMoniker": "SignalRDemo.csproj",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\SignalRDemo.csproj",
+              "RelativeToolTip": "SignalRDemo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T03:24:08.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Demo\\SignalRDemo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T03:17:31.276Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

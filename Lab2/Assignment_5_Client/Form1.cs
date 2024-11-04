@@ -70,13 +70,16 @@ namespace Assignment_5_Client
                 try
                 {
                     bytesRead = stream.Read(buffer, 0, buffer.Length);
-                    if (bytesRead == 0) break;
+                    if (bytesRead == 0)
+                        break;
 
                     string received = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                    contentText.Invoke(new Action(() =>
-                    {
-                        contentText.AppendText("Server: " + received + "\r\n");
-                    }));
+                    contentText.Invoke(
+                        new Action(() =>
+                        {
+                            contentText.AppendText("Server: " + received + "\r\n");
+                        })
+                    );
                 }
                 catch (Exception ex)
                 {
