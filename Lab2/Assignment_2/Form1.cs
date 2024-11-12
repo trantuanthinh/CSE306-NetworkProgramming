@@ -31,7 +31,7 @@ namespace Assignment_2
 
         private void Button2_Click(object sender, EventArgs e)
         {
-                string filePath = textBox1.Text;
+            string filePath = textBox1.Text;
             if (File.Exists(filePath))
             {
                 Encoding encoding = radioButton2.Checked ?   Encoding.Unicode:Encoding.UTF8;

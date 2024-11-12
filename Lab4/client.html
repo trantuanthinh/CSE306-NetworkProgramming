@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websocket - Client</title>
+</head>
+
+<body>
+    <input type="text" id="message" placeholder="Enter message" />
+    <button id="send" onclick="sendMessage()">Send</button>
+    <div id="messages"></div>
+    <script>
+        const host = '127.0.0.1';
+        const port = 31000;
+        const socket = new WebSocket(`ws://${ host }:${ port }`);
+
+        // Connected to server
+        socket.onopen = (event) => {
+            console.log('Connected');
+        };
+
+        // Server send data to client
+        socket.onmessage = (event) => {
+            const chatDiv = document.getElementById('messages');
+            chatDiv.innerHTML += `<p>${ event.data }</p>`;
+        };
+
+        // When connection closed or cannot connect to server
+        socket.onclose = (event) => {
+            if (event.wasClean) {
+                console.log(`Connection closed, code: ${ event.code }, reason: ${ event.reason }`);
+            } else {
+                console.error('Connection lost');
+            }
+        };
+
+        function sendMessage() {
+            const message = document.getElementById('message').value;
+            socket.send(message);
+            document.getElementById('message').value = '';
+        }
+
+    </script>
+</body>
+
+</html>

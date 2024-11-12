@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|d:\\cse306-networkprogramming\\lab5\\assignment_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\renamedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|solutionrelative:renamedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\renamedialog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|solutionrelative:renamedialog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\renamedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{502348C0-F289-4C1D-BC66-F21D4A0AAFFF}|Assignment_1.csproj|solutionrelative:renamedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RenameDialog.cs [Design]",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\RenameDialog.cs",
+              "RelativeDocumentMoniker": "RenameDialog.cs",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\RenameDialog.cs [Design]",
+              "RelativeToolTip": "RenameDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T06:59:40.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RenameDialog.Designer.cs",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\RenameDialog.Designer.cs",
+              "RelativeDocumentMoniker": "RenameDialog.Designer.cs",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\RenameDialog.Designer.cs",
+              "RelativeToolTip": "RenameDialog.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T06:59:39.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RenameDialog.cs",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\RenameDialog.cs",
+              "RelativeDocumentMoniker": "RenameDialog.cs",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\RenameDialog.cs",
+              "RelativeToolTip": "RenameDialog.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T06:45:31.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAmwLUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T05:44:57.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\CSE306-NetworkProgramming\\Lab5\\Assignment_1\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T05:42:01.266Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

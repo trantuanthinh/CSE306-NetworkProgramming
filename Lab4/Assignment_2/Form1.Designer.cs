@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
@@ -52,21 +51,14 @@
             this.btnChooseList = new System.Windows.Forms.Button();
             this.btnChooseFile = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(49, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Login Setting";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(75, 43);
+            this.label2.Location = new System.Drawing.Point(33, 31);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 16);
             this.label2.TabIndex = 1;
@@ -74,22 +66,24 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(151, 40);
+            this.txtUsername.Location = new System.Drawing.Point(109, 28);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(182, 22);
             this.txtUsername.TabIndex = 2;
+            this.txtUsername.Text = "tran.tuan.thinh.0125@gmail.com";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(151, 68);
+            this.txtPassword.Location = new System.Drawing.Point(109, 56);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(182, 22);
             this.txtPassword.TabIndex = 4;
+            this.txtPassword.Text = "gtwi jkcz iafc dflb";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(75, 71);
+            this.label3.Location = new System.Drawing.Point(33, 59);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 16);
             this.label3.TabIndex = 3;
@@ -101,6 +95,7 @@
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(182, 22);
             this.txtPort.TabIndex = 9;
+            this.txtPort.Text = "587";
             // 
             // label4
             // 
@@ -117,6 +112,7 @@
             this.txtGmail.Name = "txtGmail";
             this.txtGmail.Size = new System.Drawing.Size(182, 22);
             this.txtGmail.TabIndex = 7;
+            this.txtGmail.Text = "smtp.gmail.com";
             // 
             // label5
             // 
@@ -142,6 +138,7 @@
             this.txtEmailTo.Name = "txtEmailTo";
             this.txtEmailTo.Size = new System.Drawing.Size(441, 22);
             this.txtEmailTo.TabIndex = 14;
+            this.txtEmailTo.Text = "D:\\CSE306-NetworkProgramming\\Lab4\\Emails.txt";
             // 
             // label7
             // 
@@ -159,6 +156,7 @@
             this.txtEmailFrom.Name = "txtEmailFrom";
             this.txtEmailFrom.Size = new System.Drawing.Size(441, 22);
             this.txtEmailFrom.TabIndex = 12;
+            this.txtEmailFrom.Text = "tran.tuan.thinh.0125@gmail.com";
             // 
             // label8
             // 
@@ -185,6 +183,7 @@
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(441, 22);
             this.txtTitle.TabIndex = 18;
+            this.txtTitle.Text = "Test SMTP App";
             // 
             // label10
             // 
@@ -202,6 +201,7 @@
             this.txtFile.Name = "txtFile";
             this.txtFile.Size = new System.Drawing.Size(441, 22);
             this.txtFile.TabIndex = 16;
+            this.txtFile.Text = "D:\\CSE306-NetworkProgramming\\Lab4\\Lab 4.pdf";
             // 
             // label11
             // 
@@ -220,6 +220,7 @@
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.Size = new System.Drawing.Size(441, 26);
             this.txtMessage.TabIndex = 20;
+            this.txtMessage.Text = "Test Content";
             // 
             // label12
             // 
@@ -239,6 +240,7 @@
             this.btnChooseList.TabIndex = 21;
             this.btnChooseList.Text = "Choose List";
             this.btnChooseList.UseVisualStyleBackColor = true;
+            this.btnChooseList.Click += new System.EventHandler(this.btnChooseList_Click);
             // 
             // btnChooseFile
             // 
@@ -248,6 +250,7 @@
             this.btnChooseFile.TabIndex = 22;
             this.btnChooseFile.Text = "Choose File";
             this.btnChooseFile.UseVisualStyleBackColor = true;
+            this.btnChooseFile.Click += new System.EventHandler(this.btnChooseFile_Click);
             // 
             // btnSend
             // 
@@ -257,12 +260,27 @@
             this.btnSend.TabIndex = 23;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtUsername);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.txtPassword);
+            this.groupBox1.Location = new System.Drawing.Point(52, 25);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(314, 84);
+            this.groupBox1.TabIndex = 24;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Login Setting";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 496);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.btnChooseFile);
             this.Controls.Add(this.btnChooseList);
@@ -282,21 +300,16 @@
             this.Controls.Add(this.txtGmail);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtUsername);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "SMTP - Send email list";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
@@ -320,5 +333,6 @@
         private System.Windows.Forms.Button btnChooseList;
         private System.Windows.Forms.Button btnChooseFile;
         private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

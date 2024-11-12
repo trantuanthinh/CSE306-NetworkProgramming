@@ -36,7 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnListen = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
-            this.listContent = new System.Windows.Forms.ListBox();
+            this.textList = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -107,22 +107,23 @@
             this.btnSend.TabIndex = 7;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
-            // listContent
+            // textList
             // 
-            this.listContent.FormattingEnabled = true;
-            this.listContent.ItemHeight = 16;
-            this.listContent.Location = new System.Drawing.Point(35, 157);
-            this.listContent.Name = "listContent";
-            this.listContent.Size = new System.Drawing.Size(514, 244);
-            this.listContent.TabIndex = 8;
+            this.textList.Location = new System.Drawing.Point(35, 167);
+            this.textList.Multiline = true;
+            this.textList.Name = "textList";
+            this.textList.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textList.Size = new System.Drawing.Size(514, 242);
+            this.textList.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 421);
-            this.Controls.Add(this.listContent);
+            this.Controls.Add(this.textList);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.btnListen);
             this.Controls.Add(this.label3);
@@ -148,7 +149,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnListen;
         private System.Windows.Forms.Button btnSend;
-        private System.Windows.Forms.ListBox listContent;
+        private System.Windows.Forms.TextBox textList;
     }
 }
 

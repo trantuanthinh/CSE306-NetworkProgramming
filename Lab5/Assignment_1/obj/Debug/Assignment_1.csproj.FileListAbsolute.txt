@@ -1,0 +1,11 @@
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\bin\Debug\Assignment_1.exe.config
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\bin\Debug\Assignment_1.exe
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\bin\Debug\Assignment_1.pdb
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\obj\Debug\Assignment_1.csproj.AssemblyReference.cache
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\obj\Debug\Assignment_1.Properties.Resources.resources
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\obj\Debug\Assignment_1.csproj.GenerateResource.cache
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\obj\Debug\Assignment_1.csproj.CoreCompileInputs.cache
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\obj\Debug\Assignment_1.exe
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\obj\Debug\Assignment_1.pdb
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\obj\Debug\Assignment_1.Form1.resources
+D:\CSE306-NetworkProgramming\Lab5\Assignment_1\obj\Debug\Assignment_1.RenameDialog.resources

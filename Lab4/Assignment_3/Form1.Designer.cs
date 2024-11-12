@@ -44,13 +44,13 @@
             this.textUsername = new System.Windows.Forms.TextBox();
             this.textPassword = new System.Windows.Forms.TextBox();
             this.textPort = new System.Windows.Forms.TextBox();
-            this.textPath1 = new System.Windows.Forms.TextBox();
-            this.textPath2 = new System.Windows.Forms.TextBox();
+            this.textPathClient = new System.Windows.Forms.TextBox();
+            this.textPathServer = new System.Windows.Forms.TextBox();
             this.treeView = new System.Windows.Forms.TreeView();
-            this.listBoxFolders1 = new System.Windows.Forms.ListBox();
-            this.listBoxFiles1 = new System.Windows.Forms.ListBox();
-            this.listBoxFolders2 = new System.Windows.Forms.ListBox();
-            this.listBoxFiles2 = new System.Windows.Forms.ListBox();
+            this.listBoxFoldersClient = new System.Windows.Forms.ListBox();
+            this.listBoxFilesClient = new System.Windows.Forms.ListBox();
+            this.listBoxFoldersServer = new System.Windows.Forms.ListBox();
+            this.listBoxFilesServer = new System.Windows.Forms.ListBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnLogIn = new System.Windows.Forms.Button();
@@ -108,7 +108,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(627, 170);
+            this.label6.Location = new System.Drawing.Point(617, 170);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(34, 16);
             this.label6.TabIndex = 5;
@@ -182,6 +182,7 @@
             this.textUsername.Name = "textUsername";
             this.textUsername.Size = new System.Drawing.Size(160, 22);
             this.textUsername.TabIndex = 13;
+            this.textUsername.Text = "anonymous";
             // 
             // textPassword
             // 
@@ -196,20 +197,21 @@
             this.textPort.Name = "textPort";
             this.textPort.Size = new System.Drawing.Size(160, 22);
             this.textPort.TabIndex = 15;
+            this.textPort.Text = "21";
             // 
-            // textPath1
+            // textPathClient
             // 
-            this.textPath1.Location = new System.Drawing.Point(62, 167);
-            this.textPath1.Name = "textPath1";
-            this.textPath1.Size = new System.Drawing.Size(403, 22);
-            this.textPath1.TabIndex = 16;
+            this.textPathClient.Location = new System.Drawing.Point(62, 167);
+            this.textPathClient.Name = "textPathClient";
+            this.textPathClient.Size = new System.Drawing.Size(403, 22);
+            this.textPathClient.TabIndex = 16;
             // 
-            // textPath2
+            // textPathServer
             // 
-            this.textPath2.Location = new System.Drawing.Point(667, 167);
-            this.textPath2.Name = "textPath2";
-            this.textPath2.Size = new System.Drawing.Size(224, 22);
-            this.textPath2.TabIndex = 17;
+            this.textPathServer.Location = new System.Drawing.Point(657, 167);
+            this.textPathServer.Name = "textPathServer";
+            this.textPathServer.Size = new System.Drawing.Size(234, 22);
+            this.textPathServer.TabIndex = 17;
             // 
             // treeView
             // 
@@ -217,42 +219,45 @@
             this.treeView.Name = "treeView";
             this.treeView.Size = new System.Drawing.Size(231, 298);
             this.treeView.TabIndex = 18;
+            this.treeView.BeforeExpand += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView_BeforeExpand);
+            this.treeView.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView_NodeMouseClick);
             // 
-            // listBoxFolders1
+            // listBoxFoldersClient
             // 
-            this.listBoxFolders1.FormattingEnabled = true;
-            this.listBoxFolders1.ItemHeight = 16;
-            this.listBoxFolders1.Location = new System.Drawing.Point(274, 222);
-            this.listBoxFolders1.Name = "listBoxFolders1";
-            this.listBoxFolders1.Size = new System.Drawing.Size(181, 116);
-            this.listBoxFolders1.TabIndex = 19;
+            this.listBoxFoldersClient.FormattingEnabled = true;
+            this.listBoxFoldersClient.ItemHeight = 16;
+            this.listBoxFoldersClient.Location = new System.Drawing.Point(274, 222);
+            this.listBoxFoldersClient.Name = "listBoxFoldersClient";
+            this.listBoxFoldersClient.Size = new System.Drawing.Size(181, 116);
+            this.listBoxFoldersClient.TabIndex = 19;
+            this.listBoxFoldersClient.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBoxFoldersClient_MouseDoubleClick);
             // 
-            // listBoxFiles1
+            // listBoxFilesClient
             // 
-            this.listBoxFiles1.FormattingEnabled = true;
-            this.listBoxFiles1.ItemHeight = 16;
-            this.listBoxFiles1.Location = new System.Drawing.Point(272, 404);
-            this.listBoxFiles1.Name = "listBoxFiles1";
-            this.listBoxFiles1.Size = new System.Drawing.Size(181, 116);
-            this.listBoxFiles1.TabIndex = 20;
+            this.listBoxFilesClient.FormattingEnabled = true;
+            this.listBoxFilesClient.ItemHeight = 16;
+            this.listBoxFilesClient.Location = new System.Drawing.Point(272, 404);
+            this.listBoxFilesClient.Name = "listBoxFilesClient";
+            this.listBoxFilesClient.Size = new System.Drawing.Size(181, 116);
+            this.listBoxFilesClient.TabIndex = 20;
             // 
-            // listBoxFolders2
+            // listBoxFoldersServer
             // 
-            this.listBoxFolders2.FormattingEnabled = true;
-            this.listBoxFolders2.ItemHeight = 16;
-            this.listBoxFolders2.Location = new System.Drawing.Point(620, 222);
-            this.listBoxFolders2.Name = "listBoxFolders2";
-            this.listBoxFolders2.Size = new System.Drawing.Size(271, 116);
-            this.listBoxFolders2.TabIndex = 21;
+            this.listBoxFoldersServer.FormattingEnabled = true;
+            this.listBoxFoldersServer.ItemHeight = 16;
+            this.listBoxFoldersServer.Location = new System.Drawing.Point(620, 222);
+            this.listBoxFoldersServer.Name = "listBoxFoldersServer";
+            this.listBoxFoldersServer.Size = new System.Drawing.Size(271, 116);
+            this.listBoxFoldersServer.TabIndex = 21;
             // 
-            // listBoxFiles2
+            // listBoxFilesServer
             // 
-            this.listBoxFiles2.FormattingEnabled = true;
-            this.listBoxFiles2.ItemHeight = 16;
-            this.listBoxFiles2.Location = new System.Drawing.Point(620, 404);
-            this.listBoxFiles2.Name = "listBoxFiles2";
-            this.listBoxFiles2.Size = new System.Drawing.Size(269, 116);
-            this.listBoxFiles2.TabIndex = 22;
+            this.listBoxFilesServer.FormattingEnabled = true;
+            this.listBoxFilesServer.ItemHeight = 16;
+            this.listBoxFilesServer.Location = new System.Drawing.Point(620, 404);
+            this.listBoxFilesServer.Name = "listBoxFilesServer";
+            this.listBoxFilesServer.Size = new System.Drawing.Size(269, 116);
+            this.listBoxFilesServer.TabIndex = 22;
             // 
             // listBox1
             // 
@@ -281,6 +286,7 @@
             this.btnLogIn.TabIndex = 25;
             this.btnLogIn.Text = "Log in";
             this.btnLogIn.UseVisualStyleBackColor = true;
+            this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
             // btnUpload
             // 
@@ -290,33 +296,37 @@
             this.btnUpload.TabIndex = 26;
             this.btnUpload.Text = "Upload";
             this.btnUpload.UseVisualStyleBackColor = true;
+            this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click);
             // 
             // btnDownload
             // 
-            this.btnDownload.Location = new System.Drawing.Point(481, 315);
+            this.btnDownload.Location = new System.Drawing.Point(481, 300);
             this.btnDownload.Name = "btnDownload";
             this.btnDownload.Size = new System.Drawing.Size(104, 38);
             this.btnDownload.TabIndex = 27;
             this.btnDownload.Text = "Download";
             this.btnDownload.UseVisualStyleBackColor = true;
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(481, 370);
+            this.btnDelete.Location = new System.Drawing.Point(481, 353);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(104, 40);
             this.btnDelete.TabIndex = 28;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnRename
             // 
-            this.btnRename.Location = new System.Drawing.Point(481, 426);
+            this.btnRename.Location = new System.Drawing.Point(481, 404);
             this.btnRename.Name = "btnRename";
             this.btnRename.Size = new System.Drawing.Size(104, 46);
             this.btnRename.TabIndex = 29;
             this.btnRename.Text = "Rename";
             this.btnRename.UseVisualStyleBackColor = true;
+            this.btnRename.Click += new System.EventHandler(this.btnRename_Click);
             // 
             // Form1
             // 
@@ -330,13 +340,13 @@
             this.Controls.Add(this.btnLogIn);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.listBoxFiles2);
-            this.Controls.Add(this.listBoxFolders2);
-            this.Controls.Add(this.listBoxFiles1);
-            this.Controls.Add(this.listBoxFolders1);
+            this.Controls.Add(this.listBoxFilesServer);
+            this.Controls.Add(this.listBoxFoldersServer);
+            this.Controls.Add(this.listBoxFilesClient);
+            this.Controls.Add(this.listBoxFoldersClient);
             this.Controls.Add(this.treeView);
-            this.Controls.Add(this.textPath2);
-            this.Controls.Add(this.textPath1);
+            this.Controls.Add(this.textPathServer);
+            this.Controls.Add(this.textPathClient);
             this.Controls.Add(this.textPort);
             this.Controls.Add(this.textPassword);
             this.Controls.Add(this.textUsername);
@@ -355,6 +365,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -378,13 +389,13 @@
         private System.Windows.Forms.TextBox textUsername;
         private System.Windows.Forms.TextBox textPassword;
         private System.Windows.Forms.TextBox textPort;
-        private System.Windows.Forms.TextBox textPath1;
-        private System.Windows.Forms.TextBox textPath2;
+        private System.Windows.Forms.TextBox textPathClient;
+        private System.Windows.Forms.TextBox textPathServer;
         private System.Windows.Forms.TreeView treeView;
-        private System.Windows.Forms.ListBox listBoxFolders1;
-        private System.Windows.Forms.ListBox listBoxFiles1;
-        private System.Windows.Forms.ListBox listBoxFolders2;
-        private System.Windows.Forms.ListBox listBoxFiles2;
+        private System.Windows.Forms.ListBox listBoxFoldersClient;
+        private System.Windows.Forms.ListBox listBoxFilesClient;
+        private System.Windows.Forms.ListBox listBoxFoldersServer;
+        private System.Windows.Forms.ListBox listBoxFilesServer;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnLogIn;

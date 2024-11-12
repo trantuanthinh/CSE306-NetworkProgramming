@@ -1,0 +1,7 @@
+D:\CSE306-NetworkProgramming\Demo\Demo\bin\Debug\Demo.exe.config
+D:\CSE306-NetworkProgramming\Demo\Demo\bin\Debug\Demo.exe
+D:\CSE306-NetworkProgramming\Demo\Demo\bin\Debug\Demo.pdb
+D:\CSE306-NetworkProgramming\Demo\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+D:\CSE306-NetworkProgramming\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+D:\CSE306-NetworkProgramming\Demo\Demo\obj\Debug\Demo.exe
+D:\CSE306-NetworkProgramming\Demo\Demo\obj\Debug\Demo.pdb
